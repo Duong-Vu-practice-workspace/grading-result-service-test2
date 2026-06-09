@@ -1,0 +1,2 @@
+ALTER TABLE grading_results ADD COLUMN IF NOT EXISTS deleted_at TIMESTAMPTZ;
+ALTER TABLE scenario_results ADD COLUMN IF NOT EXISTS deleted_at TIMESTAMPTZ;
